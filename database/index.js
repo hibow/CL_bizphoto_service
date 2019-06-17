@@ -1,7 +1,10 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 
-const url = 'mongodb://localhost';// localhost';
+dotenv.config();
+const url = 'mongodb://localhost';
 const mongoDBURI = process.env.MONGOLAB_URI || url;
+
 mongoose.connect(mongoDBURI,
   {
     dbName: 'Yelp',

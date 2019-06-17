@@ -7,7 +7,10 @@
     "node": ">=10.13.0"
   },
   "scripts": {
-    "start" : "node server/index.js"
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "seed": "node database/seeder/seed.js",
+    "unseed": "node database/seeder/unseed.js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
