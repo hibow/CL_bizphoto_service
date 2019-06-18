@@ -10,6 +10,7 @@ const Biz = () => {
   const {
     bizname,
   } = useBiz();
+  console.log(process.env.MONGOLAB_URI);
   return (
     <div className="home">
       <Header />
