@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node server/index.js",
+    "build": "webpack --config webpack.prod.js --watch",
     "server": "nodemon server/index.js",
     "seed": "node database/seeder/seed.js",
     "unseed": "node database/seeder/unseed.js"
