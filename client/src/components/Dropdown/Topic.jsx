@@ -2,15 +2,13 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Dropdown from './Dropdown';
 import Icon from '../Icon/Icon';
-// toDO: add class if open (header-link--dropdown-open)
+
 const Topic = ({ topic, listL, listR }) => {
   const [showMenu, setShow] = useState(false);
   const show = () => {
-    // console.log('on');
     setShow(!showMenu);
   };
   const hide = () => {
-    // console.log('out');
     setShow(false);
   };
   return (

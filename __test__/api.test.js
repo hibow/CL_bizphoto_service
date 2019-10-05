@@ -70,7 +70,6 @@ describe('When GET /biz/:bId with correct bId', () => {
 
 describe('When GET /biz_photos/:bId/:pId for 20 pictures starts from assigned pId', () => {
   test('should get correct Json Object and status code 200', () => {
-    // try {
     request(app).get('/biz_photos/1/1').then(async (response) => {
       try {
         await expect(response.type).toEqual('application/json');
@@ -81,8 +80,5 @@ describe('When GET /biz_photos/:bId/:pId for 20 pictures starts from assigned pI
         throw err;
       }
     });
-    // } catch (err) {
-    //   throw err;
-    // }
   });
 });

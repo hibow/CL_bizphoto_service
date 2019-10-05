@@ -41,7 +41,6 @@ const Maptext = ({
         </div>
       </li>
       <li>
-        {/* <li className="clearfix"> */}
         <div>
           <span
             style={{ width: '18px', height: '18px' }}
@@ -78,7 +77,6 @@ const Maptext = ({
         </span>
       </li>
       <li>
-        {/* <li className="u-relative"> */}
         <span
           style={{ width: '18px', height: '18px' }}
           className="icon"
@@ -88,7 +86,6 @@ const Maptext = ({
         <span className="u-space-l2">Message the business</span>
       </li>
       <li>
-        {/* <li className="clearfix"> */}
         <div>
           <span
             style={{ width: '18px', height: '18px' }}

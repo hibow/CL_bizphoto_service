@@ -1,6 +1,5 @@
 import React from 'react';
 
-// TODO: modal for map
 const Map = () => (
   <div className="mapbox-map">
     <a className="biz-map-directions" href="/">

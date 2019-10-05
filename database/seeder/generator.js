@@ -4,10 +4,6 @@ const _ = require('lodash');
 const sampleBiz = require('../sample/business.js');
 const samplePhotos = require('../sample/photos');
 const sampleUsers = require('../sample/users');
-// const {
-//   db, Biz, user, photo,
-// } = require('./index');
-
 
 const generateBiz = () => {
   let BizData = [];
@@ -99,7 +95,6 @@ const generateBiz = () => {
     });
   }
 
-  // return { data: BizData };
   return BizData;
 };
 
@@ -109,8 +104,6 @@ const generatePhoto = () => {
   for (let pId = 11; pId <= 400; pId += 1) {
     const imgUrl = faker.image.food();
     const uId = faker.random.number({ min: 1, max: 100 });
-    // const userName = faker.internet.userName();
-    // const userAv = faker.image.avatar();
     const text = faker.lorem.sentence();
     const tag = faker.commerce.productName();
     const bId = faker.random.number({ min: 1, max: 100 });
@@ -124,7 +117,6 @@ const generatePhoto = () => {
       tag,
     });
   }
-  // return { photos };
   return photos;
 };
 

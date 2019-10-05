@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '../Icon/Icon';
-// adjust css: color and padding for icon
+
 const Claim = () => (
   <div className="u-nowrap claim-status_teaser claim-status-hover-content">
     <div className="claim-padding" />

@@ -4,7 +4,6 @@ import Loading from './Layout/Loading';
 import '../stylesheets/main.scss';
 import Bizinfo from './Layout/Bizinfo';
 import { useBiz } from '../context/biz-context';
-// const Bizinfo = lazy(() => import('./Layout/Bizinfo'));
 
 const Biz = () => {
   const {

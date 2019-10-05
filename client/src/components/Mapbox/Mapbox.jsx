@@ -1,5 +1,4 @@
 import React from 'react';
-// import './mapbox.css';
 import Map from './Map';
 import Maptext from './Maptext';
 import { useBiz } from '../../context/biz-context';

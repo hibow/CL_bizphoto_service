@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '../Icon/Icon';
-// toDo implement a modal for a href
+
 const Detail = () => (
   <div className="rating-details">
     <a className="chiclet-link chiclet-link-text show-tooltip" href="https://www.yelp.com">

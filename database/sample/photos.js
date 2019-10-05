@@ -3,7 +3,6 @@ const samplePhotos = [
   {
     pId: 1,
     imgUrl: 'https://s3-media4.fl.yelpcdn.com/bphoto/J3kWrFK9vE5oBgREBJ1YQg/ls.jpg',
-    // imgUrl: '/assets/mae-mu-ls.png',
     uId: 1,
     bId: 1,
     text: '38oz!!!!!',

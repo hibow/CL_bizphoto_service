@@ -7,17 +7,11 @@ const useFetch = (url, params) => {
   const [loading, setLoading] = useState(true);
   const fetchData = async () => {
     try {
-      // const response = await fetch(url);
       const response = await axios.get(url, { params });
-      console.log('params', params);
-      // const json = await response.json();
-      // console.log(window.location.pathname);
-      console.log('response -->', response);
-      console.log('data--->', response.data);
       setState(response.data);
       setLoading(false);
     } catch (err) {
-      console.log(err);
+      throw err;
     }
   };
 

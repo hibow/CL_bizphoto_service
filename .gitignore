@@ -22,6 +22,17 @@ coverage
 
 # Compiled Dirs (http://nodejs.org/api/addons.html)
 build/
-/client/dist/*bundle.js
-/client/dist/*main.css
 
+# dist/
+# *bundle.js
+# *.css
+.env
+Dockerfile
+
+# Elastic Beanstalk CLI Files
+.elasticbeanstalk/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
