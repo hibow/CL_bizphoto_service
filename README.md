@@ -69,7 +69,7 @@
 [
   {
     pId: 1,
-    imgUrl: 'https://s3-media4.fl.yelpcdn.com/bphoto/J3kWrFK9vE5oBgREBJ1YQg/ls.jpg',
+    imgUrl: 'J3kWrFK9vE5oBgREBJ1YQg/ls.jpg',
     uId: 1,
     bId: 1,
     text: '38oz!!!!!',
@@ -91,7 +91,7 @@
  ```
  {
     pId: 1,
-    imgUrl: 'https://s3-media4.fl.yelpcdn.com/bphoto/J3kWrFK9vE5oBgREBJ1YQg/ls.jpg',
+    imgUrl: 'J3kWrFK9vE5oBgREBJ1YQg/ls.jpg',
     uId: 1,
     bId: 1,
     text: '38oz!!!!!',
@@ -108,12 +108,12 @@
 ```
 [
     {
-        "imgUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/J3kWrFK9vE5oBgREBJ1YQg/ls.jpg",
+        "imgUrl": "J3kWrFK9vE5oBgREBJ1YQg/ls.jpg",
         "photoCount": 1,
         "dish": "Tomahawk Ribeye"
     },
     {
-        "imgUrl": "https://s3-media3.fl.yelpcdn.com/bphoto/L38qQjyzPvt53aJ5sTj4sg/ls.jpg",
+        "imgUrl": "L38qQjyzPvt53aJ5sTj4sg/ls.jpg",
         "photoCount": 1,
         "dish": "Center Cut Filet"
     }
