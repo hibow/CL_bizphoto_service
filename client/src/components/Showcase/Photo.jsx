@@ -5,7 +5,7 @@ const Photo = ({
 }) => (
   <>
     <div className="showcase-photo-box">
-      <a href="https://www.yelp.com">
+      <a href="blank">
         <img
           alt="pictures from restaurant"
           className="photo-box-img"
@@ -19,12 +19,12 @@ const Photo = ({
       <div className="media-block photo-box-memo_caption">
         <div className="media-avatar avatar">
           <div className="photo-box pb-30s">
-            <a href="https://www.yelp.com">
+            <a href="blank">
               <img
                 alt="John"
                 className="photo-box-img"
                 height="30"
-                src="http://pbs.twimg.com/profile_images/1099856449918943232/hKv3Fddh.jpg"
+                src="https://i.pravatar.cc/30"
                 width="30"
               />
             </a>
@@ -34,7 +34,7 @@ const Photo = ({
           <span className="photo-desc">{text}</span>
           <span className="author">
             {' by '}
-            <a className="username" href="https://www.yelp.com">John</a>
+            <a className="username" href="blank">John</a>
           </span>
         </div>
       </div>

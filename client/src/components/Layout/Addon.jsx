@@ -8,7 +8,7 @@ const Addon = () => (
         <span style={{ width: '18px', height: '18px' }} className="icon icon--currentColor u-space-r-half">
           <Icon name="18x18_suitcase" />
         </span>
-      Go to Yelp for Business Owners
+      Go to 3BodyPage for Business Owners
       </a>
     </div>
   </div>

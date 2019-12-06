@@ -13,10 +13,14 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 /// color
 /// @type Color
 $black: #333333 !default;
-$brand-color: #d32323 !default;
-$dark-red: #bd1f1f !default;
-$link-hover-red: #a71c1c !default;
-$button-hover-red: #dc4f4f !default;
+// $brand-color: #d32323 !default;
+$brand-color: #2bbbe3 !default;
+// $dark-red: #bd1f1f !default;
+$dark-red: #4092a8 !default;
+// $link-hover-red: #a71c1c !default;
+$link-hover-red:#5bd2d9 !default;
+// $button-hover-red: #dc4f4f !default;
+$button-hover-red: #5bd2d9 !default;
 $blue :#0073bb !default;
 $medium-background-color: #e6e6e6 !default;
 $background-color: #f5f5f5 !default;

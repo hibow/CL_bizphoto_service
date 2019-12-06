@@ -4,7 +4,7 @@ import Icon from '../Icon/Icon';
 const Warbtn = () => (
   <a
     className="m-btn m-btn-primary war-button"
-    href="https://www.yelp.com/writeareview/biz/TYgQmuqNUViLxORmy-snjg?return_url=%2Fbiz%2FTYgQmuqNUViLxORmy-snjg&source=biz_details_war_button"
+    href="blank"
   >
     <span
       style={{ width: '24px', height: '24px' }}

@@ -1,10 +1,14 @@
-# Yelp Mock biz detail and photo service
+# 3Bodypage detail and photo service
 
 > This module will display business detail and photo information
 
 ## Related Projects
 
   - Proxy: https://github.com/3-body-problem/CL_yelp_proxy
+
+## Demo
+
+![3BodyDemo](public/3bodydemo.gif)
 
 ## Table of Contents
 
